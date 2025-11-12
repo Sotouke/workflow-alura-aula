@@ -3,4 +3,4 @@ ADD . /app
 WORKDIR /app
 RUN apk add --update-cache sqlite
 USER node
-CMD npm install
+CMD ["npm", "run", "dev"]

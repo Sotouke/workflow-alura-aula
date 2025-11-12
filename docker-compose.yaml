@@ -10,6 +10,8 @@ services:
       - "3000:3000"
     volumes:
       - ./:/app:cached
+    stdin_open: true
+    tty: true
     depends_on:
       - db
   test:
