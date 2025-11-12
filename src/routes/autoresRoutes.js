@@ -12,6 +12,3 @@ router
   .delete('/autores/:id', AutoresController.excluirAutor);
 
 export default router;
-
-//docker-compose down
-//docker-compose up dev --build
