@@ -78,7 +78,6 @@ class AutoresController {
   } catch (err) {
       return res.status(500).json(err.message);
     }
-  }
-
+  };
 }
 export default AutoresController;
