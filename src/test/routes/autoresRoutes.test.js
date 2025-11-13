@@ -64,7 +64,7 @@ describe('GET em /autores', () => {
         expect(res.body.livros).to.be.an('array');
         done();
       });
-  })
+  });
 });
 
 describe('POST em /autores', () => {
