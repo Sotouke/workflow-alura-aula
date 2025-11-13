@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "add:metodos para listra livros por autor"
+        "add:metodos para listra livros por autor",
+        "tentando fazer  lint manual"
     ]
 }
